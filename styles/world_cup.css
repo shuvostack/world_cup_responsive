@@ -72,3 +72,72 @@
     margin-top: 33px;
     margin-right: 17px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    
+    /* hero section  */
+    .hero{
+        flex-direction: column;
+        width: 340px;
+        height: 570px;
+    }
+
+    .hero-text{
+        text-align: center;
+        width: 258px;
+        height: 178px;
+        margin: 20px;
+        margin: 20px auto;
+    }
+
+    .hero-title{
+        width: 228px;
+        height: 66px;
+        font-size: 1.375rem;
+        font-weight: 700px;
+        margin-bottom: 10px;
+    }
+
+    .hero-description{
+        width: 258px;
+        height: 48px;
+        font-size: 0.875rem;
+        font-weight: 300px;
+        margin-bottom: 75px;
+        line-height: 24px;
+    }
+
+    #hero-btn{
+        width: 161px;
+        height: 40px;
+        font-size: 1.3rem;
+        margin-top: 16px;
+    }
+
+    /* hero image */
+
+    .hero-image{
+        text-align: center;
+        /* width: 233px;
+        height: 200px; */
+        position: relative;
+    }
+
+    #bg-img{
+        width: 233px;
+        height: 245px;
+        margin-top: 0px;
+        margin-right: 0px;
+        position: absolute;
+        left: 70px;
+        bottom: 0px;
+    }
+
+
+
+}
